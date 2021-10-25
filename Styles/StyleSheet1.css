@@ -1,0 +1,197 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+h1 {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 5em;
+    color: #DFE6E9;
+}
+h2{
+    font-family:Nunito;
+}
+li {
+    font-family: Nunito;
+}
+
+body {
+    background-color: #2D3436;
+}
+
+#profileicon {
+    height: 20vh;
+    width: 20vw;
+}
+
+#headingSpacer {
+    padding: 10vh;
+}
+
+#loginHeadingSpacer {
+    padding: 15vh;
+}
+
+#profileButtons {
+    padding-top: 10vh;
+}
+
+.profileButtons {
+    background-color: #E0E6E8;
+    color: #2D3436;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: solid 0px black;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Nunito;
+    font-weight: 800;
+}
+
+    .profileButtons:hover {
+        border: solid 1px black;
+    }
+
+.headerButton {
+    background-color: #E0E6E8;
+    color: #2D3436;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: solid 0px black;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 800;
+}
+
+    .headerButton:hover {
+        border: solid 1px black;
+    }
+
+
+.navbar-brand {
+    font-family: Nunito;
+}
+
+.basicLabels {
+    font-family: Nunito;
+    font-weight: 200;
+    color: #DFE6E9;
+    font-style: italic;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 3vw;
+}
+
+.validationError {
+    font-family: Nunito;
+    font-weight: 800;
+    color:red;
+}
+
+.popup {
+    background-color: #636E72;
+    width: 1000px;
+    height: 500px;
+    padding: 125px;
+    border-radius: 10px;
+}
+
+.modal-background {
+    background-color: black;
+    opacity: .8
+}
+
+.workoutBox {
+    background-color: #636E72;
+    height: 100px;
+    width: 100px;
+    border-radius: 1em;
+    border-color:none;
+    padding: 10px;
+    margin: 100px;
+    cursor: move;
+}
+
+    .workoutBox:hover {
+        background-color: #DFE6E9;
+    }
+
+.exerciseName {
+    font-family: Nunito;
+    color: #2D3436;
+}
+
+.exerciseReps {
+    font-family: Nunito;
+    color: #2D3436;
+    font-size: 1.5em;
+}
+
+.exerciseMuscleGroup {
+    font-family: Nunito;
+    color: #2D3436;
+    padding-top: 10vh;
+}
+
+
+
+.workoutBox.over {
+    border: 3px dotted black;
+}
+
+[draggable] {
+    user-select: none;
+}
+
+.popup {
+    background-color: #636E72;
+    width: 1000px;
+    height: 500px;
+}
+
+.modal-background {
+    background-color: black;
+    opacity: .8
+}
+.exerciseBox {
+    background-color: #636E72;
+    border-radius: 1em;
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.exerciseName {
+    font-family: Roboto;
+    color: #2D3436;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+.exerciseMuscleGroup {
+    font-family: Roboto;
+    font-size: 3em;
+    color: #2D3436;
+}
+
+#exerciseHeadingSpacer {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+.exerciseButtons {
+    background-color: #E0E6E8;
+    color: #2D3436;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: solid 0px black;
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 800;
+    margin: 3vh;
+}
+
+    .exerciseButtons:hover {
+        border: solid 1px black;
+    }
